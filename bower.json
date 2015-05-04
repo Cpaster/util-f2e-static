@@ -1,0 +1,19 @@
+{
+  "name": "util-f2e-static",
+  "version": "0.0.0",
+  "authors": [
+    "mengdong.wang <mengdong.wang@dianping.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "amazeui": "~2.3.0"
+  }
+}

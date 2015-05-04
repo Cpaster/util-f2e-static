@@ -1,0 +1,22 @@
+<form name="addForm" class="am-form" ng-submit="submitForm(addForm)" novalidate>
+	<fieldset>
+	    <legend>添加文档</legend>
+
+	    <div class="am-form-group" ng-class="{'am-form-error': addForm.titles.$error.required && !addForm.titles.$pristine}">
+	      <label for="doc-ipt-email-1">文档标题</label>
+	      <input name="titles" type="text" ng-class="{'am-form-field': addForm.titles.$error.required && !addForm.titles.$pristine}" ng-model="deal.title" placeholder="输入标题" required>
+	    </div>
+
+	    <div class="am-form-group" ng-class="{'am-form-error': addForm.link.$error.required && !addForm.link.$pristine}">
+	      <label for="doc-ipt-pwd-1">文档链接</label>
+	      <input name="link" type="text" ng-model="deal.link" ng-class="{'am-form-field': addForm.link.$error.required && !addForm.link.$pristine}" placeholder="输入文档链接" required>
+	    </div>
+
+	    <div class="am-form-group">
+	      <label for="doc-ta-1">文档描述</label>
+	      <textarea name="desc" class="" ng-module="deal.desc" rows="5" id="doc-ta-1" required></textarea>
+	    </div>
+
+		<p><button ng-disabled="addForm.$invalid" type="submit" class="am-btn am-btn-default">提交</button></p>
+	</fieldset>
+</form>

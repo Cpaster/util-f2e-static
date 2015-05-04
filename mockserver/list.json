@@ -1,0 +1,29 @@
+{
+	"code": 200,
+	"msg": {
+		"list":[{
+			"url": "http://t.dianping.com",
+			"imgUrl": "http://t3.dpfile.com/t/img/logo.v9.png",
+			"title": "Angular",
+			"desc": "我猜这个东西碉堡了"
+		},
+		{
+			"url": "http://t.dianping.com",
+			"imgUrl": "http://t3.dpfile.com/t/img/logo.v9.png",
+			"title": "Angular",
+			"desc": "我猜这个东西碉堡了"
+		},
+		{
+			"url": "http://t.dianping.com",
+			"imgUrl": "http://t3.dpfile.com/t/img/logo.v9.png",
+			"title": "Angular",
+			"desc": "我猜这个东西碉堡了"
+		},
+		{
+			"url": "http://t.dianping.com",
+			"imgUrl": "http://t3.dpfile.com/t/img/logo.v9.png",
+			"title": "Angular",
+			"desc": "我猜这个东西碉堡了"
+		}]
+	}
+}
