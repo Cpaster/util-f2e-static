@@ -14,7 +14,7 @@
 
 	    <div class="am-form-group">
 	      <label for="doc-ta-1">文档描述</label>
-	      <textarea name="desc" class="" ng-module="deal.desc" rows="5" id="doc-ta-1" required></textarea>
+	      <textarea name="desc" class="" ng-module="deal.desc" rows="5" id="doc-ta-1" required>{{deal.desc}}</textarea>
 	    </div>
 
 		<p><button ng-disabled="addForm.$invalid" type="submit" class="am-btn am-btn-default">提交</button></p>

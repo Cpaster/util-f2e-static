@@ -13,6 +13,10 @@ function Routes($routeProvider) {
 			"templateUrl": 'build/view/add.html',
 			"controller": "formControll"
 		})
+		.when('/edit/:id',{
+			'templateUrl': 'build/view/add.html',
+			'controller': 'detailControll'
+		})
 		.otherwise({
 			redirectTo: '/'
 		})

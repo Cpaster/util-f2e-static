@@ -1,6 +1,6 @@
 <ul class="am-list am-list-static am-list-border">
 	<li ng-repeat="item in list">
-	    <span class="am-badge am-badge-success" ng-click="editFuc({{item.index}})">编辑</span> <span class="am-badge am-badge-danger" ng-click="delFuc({{item.index}})">删除</span>
-		哈哈哈
+	    <span class="am-badge am-badge-success"><a href="#/edit/{{item.index}}">编辑</a></span> <span class="am-badge am-badge-danger" ng-click="delFuc(item.index)"><a>删除</a></span>
+		{{item.name}}
 	</li>
 </ul>
